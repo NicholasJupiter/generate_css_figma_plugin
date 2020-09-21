@@ -1,0 +1,7 @@
+{
+  "name": "Generate CSS constant",
+  "id": "888432260109300768",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html"
+}

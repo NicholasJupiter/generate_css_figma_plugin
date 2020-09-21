@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESnext",
+    "outDir": "dist",
+    "jsx": "react",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@util/*": [
+        "src/util/*"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Generate-CSS-constant",
+  "version": "1.0.0",
+  "description": "Your Figma Plugin",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "npx webpack --mode=development --watch",
+    "bu": "npx webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-typescript": "^7.10.4",
+    "@figma/plugin-typings": "^1.16.1",
+    "@types/color": "^3.0.1",
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-syntax-highlighter": "^11.0.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-inline-source-plugin": "^0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "install": "^0.13.0",
+    "node-sass": "^4.14.1",
+    "npm": "^6.14.8",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.3",
+    "typescript": "^4.0.2",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "color": "^3.1.2",
+    "core-js": "^3.6.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-syntax-highlighter": "^13.5.3"
+  },
+  "keywords": []
+}
